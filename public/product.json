@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+        "name": "Car Engine Plug",
+        "price": "$20,000",
+        "imgurl": "https://i.imgur.com/6thTSdV.png"
+    },
+    {
+      "id": 2,
+        "name": "Car Air Filter",
+        "price": "$28,500",
+      "imgurl": "https://i.imgur.com/40R7zP1.png"
+    },
+    {
+      "id": 3,
+        "name": "Cools Led Light",
+        "price": "$92,200",
+      "imgurl": "https://i.imgur.com/b4YRx7R.png"
+    },
+    {
+      "id": 4,
+        "name": "Cools Led Light",
+        "price": "$21,500",
+      "imgurl": "https://i.imgur.com/lSv6DPd.png"
+    },
+    {
+      "id": 5,
+        "name": "Cools Led Light",
+        "price": "$27,800",
+      "imgurl": "https://i.imgur.com/Hibtwva.jpeg"
+    },
+    {
+      "id": 6,
+        "name": "Cools Led Light",
+        "price": "$18,900",
+      "imgurl": "https://i.imgur.com/vwXjk4n.png"
+    },
+    {
+      "id": 7,
+
+        "name": " Electric Motor",
+        "price": "$29,700",
+      "imgurl": "https://i.imgur.com/b4YRx7R.png"
+    },
+    {
+      "id": 8,
+        "name": "Porsche Electric",
+        "price": "$35,000",
+      "imgurl": "https://i.imgur.com/6thTSdV.png"
+    },
+    {
+      "id": 9,
+        "name": "Jaguar Electric ",
+        "price": "$22,300",
+      "imgurl": "https://i.imgur.com/vwXjk4n.png"
+    }
+
+  ]
+  

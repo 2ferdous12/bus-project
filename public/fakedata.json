@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+        "name": "Tesla Electric Motor",
+        "price": "$10,000",
+        "imgurl": "https://i.imgur.com/znEprEz.jpeg"
+    },
+    {
+      "id": 2,
+        "name": "Leaf e+ Electric Motor",
+        "price": "$8,500",
+      "imgurl": "https://i.imgur.com/5MT78bl.jpeg"
+    },
+    {
+      "id": 3,
+        "name": "Bolt Electric Drive Motor",
+        "price": "$9,200",
+      "imgurl": "https://i.imgur.com/dYgvQfg.jpeg"
+    },
+    {
+      "id": 4,
+        "name": "BMW eDrive Electric Motor",
+        "price": "$11,500",
+      "imgurl": "https://i.imgur.com/ha2HVwV.jpeg"
+    },
+    {
+      "id": 5,
+        "name": "Permanent Magnet Synchronous Motor",
+        "price": "$7,800",
+      "imgurl": "https://i.imgur.com/WvGDE7J.jpeg"
+    },
+    {
+      "id": 6,
+        "name": "Permanent Magnet Electric Motor",
+        "price": "$8,900",
+      "imgurl": "https://i.imgur.com/r90GhCa.jpeg"
+    },
+    {
+      "id": 7,
+
+        "name": "Asynchronous Electric Motor",
+        "price": "$9,700",
+      "imgurl": "https://i.imgur.com/znEprEz.jpeg"
+    },
+    {
+      "id": 8,
+        "name": "Porsche Electric Drive",
+        "price": "$15,000",
+      "imgurl": "https://i.imgur.com/5MT78bl.jpeg"
+    },
+    {
+      "id": 9,
+        "name": "Jaguar Electric Motor",
+        "price": "$12,300",
+      "imgurl": "https://i.imgur.com/dYgvQfg.jpeg"
+    }
+
+  ]
+  
