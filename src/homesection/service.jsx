@@ -2,15 +2,15 @@ import { useEffect, useState } from 'react';
 import Showservicedata from './showservicedata';
 const service = () => {
 
-const [load, SetLoad] = useState([])
-const [visibleItems, setVisibleItems] = useState(6);
+const [load2, SetLoad] = useState([])
+const [visibleItems1, setVisibleItems] = useState(6);
 
 useEffect(() =>{
-    fetch('fakedata.json')
+    fetch('/fakedata.json')
     .then(res => res.json())
     .then(data => SetLoad(data));
 })
-console.log(load)
+
 
 const handleLoadMore = () => {
     setVisibleItems(prev => prev + 3);
@@ -21,18 +21,18 @@ const handleLoadMore = () => {
         <div className='text-center space-y-6'>
         <p className='text-2xl font-bold text-orange-600'>Service</p>
         <h1 className='text-5xl font-bold '>Our Service Area</h1>
-        <p className='w-[700px] mx-auto text-balance text-xl text-gray-500'>the majority have suffered alteration in some form, by injected humour, or randomised words which dont
+        <p className='w-[350px] md:w-[700px] lg:w-[700px]   mx-auto text-balance text-xl text-gray-500'>the majority have suffered alteration in some form, by injected humour, or randomised words which dont
              look even slightly believable. </p>
         </div>
-<div className='mt-20  p-12
+<div className='mt-10 md:mt-20 lg:mt-20  p-0 md:p-12 lg:p-12
 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 
 '>
-                {load.slice(0, visibleItems).map((data, id) => (
+                {load2.slice(0, visibleItems1).map((data, id) => (
                     <Showservicedata key={id} data={data}></Showservicedata>
                 ))}
             </div>
     <div className='text-center mt-10'>
-    {visibleItems < load.length && (
+    {visibleItems1 < load2.length && (
  <button className=' font-semibold
  text-2xl  border-2 
   border-orange-600 p-2 text-orange-600 rounded-md
@@ -42,7 +42,8 @@ grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3
                 )}
     </div>
 
-    <div className='mt-20 mb-20 h-[200px] flex  flex-col md:flex-row lg:flex-row justify-around rounded-md bg-black'>
+    <div className='mt-20 mb-20 p-2 h-[400px] md:h-[200px] lg:h-[200px] flex  
+    flex-col md:flex-row lg:flex-row justify-around rounded-md bg-black'>
 
     <div className='flex gap-5 items-center'>
     <div>

@@ -3,19 +3,21 @@
 const coustomer = () => {
     return (
         <div>
-       <div className='text-center space-y-6'>
+       <div className='text-center  space-y-6'>
         <p className='text-2xl font-bold text-orange-600'>Testimonial Products</p>
-        <h1 className='text-5xl font-bold '>What Customer Says</h1>
-        <p className='w-[700px] mx-auto text-balance text-xl text-gray-500'>
+        <h1 className='text-4xl md:text-5xl  lg:text-5xl  font-bold '>What Customer Says</h1>
+        <p className='w-[350px] md:w-[700px] lg:w-[700px]  mx-auto text-balance text-xl text-gray-500'>
         the majority have suffered alteration in some form, by injected humour, or randomised
          words which dont look even slightly believable.  </p>
         </div>
         <div className="mt-20">
-<div className="carousel w-full">
+<div className="carousel  w-full">
   <div id="slide10" className="carousel-item relative w-full">
-   <div className="flex items-center justify-between">
+   <div className="flex gap-2 items-center justify-between">
 
-    <div className="w-[45%] p-10 mt-10 space-y-5 bg-amber-50 border-2  h-[400px] rounded-lg">
+    <div className="w-[50%] md:w-[45%] lg:w-[45%] 
+    p-2 md:p-10 lg:p-10 mt-10 space-y-5 bg-amber-50 
+    border-2  h-[600px] md:h-[400px] lg:h-[400px] rounded-lg">
     <div>
     <p className="text-2xl font-bold">Awlad Hossain</p>
     <p className="text-xl font-semibold">Businessman</p>
@@ -26,7 +28,9 @@ const coustomer = () => {
     </div>
 
 
-    <div className="w-[45%] p-10 mt-10 space-y-5 bg-amber-50 border-2 h-[400px] rounded-lg">
+    <div className="w-[48%] md:w-[45%] lg:w-[45%] 
+     p-2 md:p-10 lg:p-10 mt-10 space-y-5 bg-amber-50 
+     border-2  h-[600px] md:h-[400px] lg:h-[400px] rounded-lg">
     <div>
     <p className="text-2xl font-bold">Awlad Hossain</p>
     <p className="text-xl font-semibold">Businessman</p>

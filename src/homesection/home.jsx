@@ -3,6 +3,7 @@ import Service from "./service";
 import Product from "./product";
 import Meetteam from "./meetteam";
 import Coustomer from "./coustomer";
+import { Link } from "react-router-dom";
 const home = () => {
     return (
 <div className="mb-20">
@@ -15,8 +16,8 @@ const home = () => {
     <div className="absolute   flex
     bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]
     transform h-full left-0 right-0 bottom-0 ">
-        <div className="mt-[10%] space-y-7 ml-20">
-            <h3 className="text-white text-6xl font-bold w-[400px]  ">Affordable  Price For
+        <div className="mt-[10%] space-y-7 ml-5 md:ml-20 lg:ml-20">
+            <h3 className="text-white text-4xl md:text-6xl lg:text-6xl font-bold w-[300px] lg:w-[400px]  ">Affordable  Price For
              Car Servicing</h3>
             <p className="text-gray-200 text-xl" >There are many variations of passages of  available, but the majority 
                 have suffered alteration in some form</p>
@@ -128,8 +129,12 @@ const home = () => {
              Car Servicing</h3>
             <p className="text-gray-200 text-xl" >There are many variations of passages of  available, but the majority 
                 have suffered alteration in some form</p>
-            <button className="btn bg-orange-500 text-xl text-white border-none p-2 ">Discover More</button>
-            <button className=" ml-4 border-2 border-white text-xl text-white   p-3 rounded-md ">Latest Project</button>
+            <Link to="/discover" className="btn bg-orange-500 text-xl
+             text-white border-none p-2 ">Discover More</Link>
+            <Link to="/tooo"
+            className=" 
+            ml-4 border-2 border-white text-xl text-white  
+             p-3 rounded-md ">Latest Project</Link>
         </div>
    <div className="mt-[40%] ml-[20%]  flex gap-6 mr-10">
      <a href="#slide5" className="btn hover:bg-orange-600 btn-circle">❮</a> 

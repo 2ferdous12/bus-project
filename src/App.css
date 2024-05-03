@@ -1,0 +1,26 @@
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+
+const cheackout = () => {
+    const [loaddata, setLoaddata] = useState([])
+    const items = useParams()
+
+
+    console.log(items.id);
+
+    useEffect(() =>{
+        fetch('/fakedata.json')
+        .then(res => res.json())
+        .then( data =>setLoaddata(data) )
+    })
+const singleItem = loaddata && loaddata.find(item => item.id==items.id)
+console.log(singleItem);
+
+    return (
+        <div>
+            <h1>hello</h1>
+        </div>
+    );
+};
+
+export default cheackout;
